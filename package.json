@@ -1,0 +1,26 @@
+{
+  "name": "solar",
+  "version": "1.0.0",
+  "description": "Display data from solar monitor (epsolar) with node.js",
+  "main": "solar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "solar"
+  },
+  "author": "Franckapik",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.2",
+    "cron": "^1.4.1",
+    "cronstrue": "^1.51.0",
+    "debug": "^4.0.1",
+    "express": "^4.16.3",
+    "influx": "^5.0.7",
+    "modbus-serial": "^7.3.0",
+    "node-dht-sensor": "0.0.34",
+    "weather-js": "^2.0.0"
+  }
+}
